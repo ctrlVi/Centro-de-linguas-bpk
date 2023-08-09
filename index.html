@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Centro de Línguas</title>
+</head>
+    <body>
+    <header>
+        <div  class="box-img-header">
+            <a class="logo" href="#">
+            <img src="./imagens/logocl-header.svg" alt="logo">
+            </a>
+        </div>
+
+
+        <nav>
+            <a href="#redes" class="nav-links">Redes</a>
+            <a href="#professores" class="nav-links">Professores</a>
+            <a href="#avaliacoes" class="nav-links">Avaliações</a>
+            <a href="#faq" class="nav-links">FAQ</a>
+        </nav>
+    </header>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+
+
+        <main>
+
+            <!-- Primeira página lado esquerdo (Introdução e cadastro) -->
+
+            <section class="first-section">
+                <div class="left-content">
+                    <h2 class="titulo-inicio">
+                        Aprenda novos <strong>idiomas</strong> e <br>
+                        desbloqueie o <strong> mundo</strong>.
+                    </h2>
+
+                    <p class="first-paragraph">
+                        Desperte seu potencial no <strong>Centro de Línguas</strong> <br>
+                        expandindo horizonte e conectando culturas!
+                    </p>
+
+                    <form action="subscribe">
+                        <input type="text" placeholder="Nome completo">
+
+                        <input type="email" placeholder="E-mail">
+
+                        <input type="password" placeholder="Senha">
+
+                        <select name="cursos" id="cursos">
+                            <option value="selecione">Escolha um Curso</option>
+                            <option value="ingles">Inglês</option>
+                            <option value="portugues">Português</option>
+                            <option value="espanhol">Espanhol</option>
+                            <option value="frances">Francês</option>
+                        </select>
+
+                        <input type="submit" value="ENVIAR">
+
+                    </form>
+                </div>
+            </section>
+
+
+            <!-- Primeira pagina lado direito (card) -->
+
+
+
+
+            <section class="right-section">
+                        <div class="slide-content">
+                            <div class="card-wrapper">
+                                <div class="card">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+                                        <div class="card-image">
+                                            <img src="./imagens/logocl-fundo-azul.png" alt="idioma" class="card-img">
+                                        </div>
+                                    </div>
+                                    <div class="card-content">
+                                        <h2 class="name">Cursos Disponíveis</h2>
+                                        <p class="description">
+                                            •Inglês <br>
+                                            •Espanhol <br>
+                                            •Francês <br>
+                                            •Português
+                                        </p>
+                                        <form action="https://escolas.domusbrasilis.com.br">
+                                        <button class="button-slide">
+                                            Adquirir Materiais
+                                        </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </section>
+
+
+
+
+        </main>
+
+        <!-- Começo segunda pagina (Redes) -->
+
+        <section id="redes" class="redes">
+            
+            
+
+            <div class="redes-text">
+                <h2 class="titulo-redes">Nos acompanhe nas redes sociais e fique por dentro das novidades</h2>
+                <h3 class="descricao-redes">Eventos, dicas, informações e muito +++</h3>
+            </div>
+            <div class="redes-img">
+                <img src="./imagens/st patrick 1.png" alt="St.Patrick">
+                <img src="./imagens/inicio aulas 1.png" alt="InicioAulas">
+                <img src="./imagens/dica1 1.png" alt="Dica1">
+                <img src="./imagens/nivelamento 1.png" alt="Nivelamento">
+                <img src="./imagens/matriculas 1.png" alt="Matriculas">
+                <img src="./imagens/DE MENOR 1.png" alt="DeMenor">
+            </div>
+
+
+        </section>
+
+
+        <!-- Começo terceira página (metodologia)-->
+
+        <section class="metodologia" id="metodologia">
+            <div class="wrapper-metodologia">
+                <main>
+                    <div class="main__text">
+                        <h1>Metodologia</h1>
+                        <div class="main__text-metodologia">
+                            <div>
+                                <p>
+                                    Nossa proposta <span>inovadora</span>
+                                    oferece aos alunos acesso a tecnologias que <span>impulsionam</span> e <span>fortalecem</span> o aprendizado.
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    Combinando essas práticas com desafios reais alinhados ao mercado de trabalho, preparamos estudantes para atuarem de forma técnica como gestores ou empreendedores.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__img">
+                        <img src="./imagens/coordernadora.jpg" alt="Coordenadora" width="80%">
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <!-- Começo quarta página (Professores) -->
+
+        <section id="professores" class="fourth-section">
+
+            <div class="wrapper-professores">
+                <h2 class="titulo-prof">Conheça nossa equipe de Professores</h2>
+
+                <div class="caixas">
+
+                    <div class="box1">
+                        <img class="img-profile" src="./imagens/perfil-base.jpg" alt="professora portugues">
+                        <div class="nome-professor">Taina Grespan Pensin</div>
+                        <div class="materia-professor">Professora de Português</div>
+                    </div>
+
+                    <div class="box2">
+                    <img class="img-profile" src="./imagens/perfil-base.jpg" alt="professor frances">
+                        <div class="nome-professor">Ilo Ba</div>
+                        <div class="materia-professor">Professor de Francês</div>
+                    </div>
+
+                    <div class="box3">
+                        <img class="img-profile" src="./imagens/perfil-base.jpg" alt="professora ingles">
+                        <div class="nome-professor">Josiane Hammes</div>
+                        <div class="materia-professor">Professora de Inglês</div>
+                    </div>
+
+                    <div class="box4">
+                        <img class="img-profile" src="./imagens/perfil-base.jpg" alt="professora espanhol">
+                        <div class="nome-professor">Talita Mariele Bortolini</div>
+                        <div class="materia-professor">Professora de Espanhol</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Começo quinta página (avaliações) -->
+
+        <section id="avaliacoes" class="fifth-section">
+            <div class="testimonial-heading">
+                <h1 class="avaliacoes-titulo">Descubra como nossos alunos <br>
+                &nbsp;&nbsp;avaliam o <strong>centro de linguas</strong> </h1>
+            </div>
+            
+            <div id="testimonials">
+                    
+                <!--testimonials-box-container------>
+                <div class="testimonial-box-container">
+                    <!--BOX-1-------------->
+                    <div class="testimonial-box">
+                        <!--top------------------------->
+                        <div class="box-top">
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <div class="profile-img">
+                                    <img src="./imagens/perfil-base.jpg" alt="imagem usuário">
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Maria</strong>
+                                    <span>@maria</span>
+                                    <div class="box-estrela"></div>
+                                </div>
+                            </div>
+                            <!--reviews------>
+                            <div class="reviews">
+                                <div class="box-estrela">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i><!--Empty star-->
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos earum magnam, at nulla impedit atque quae rem, quo illum ex nemo magni fugit possimus esse iure voluptatem omnis quia.</p>
+                        </div>
+                    </div>
+
+                    <!--BOX-2-------------->
+                    <div class="testimonial-box">
+                        <!--top------------------------->
+                        <div class="box-top">
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <div class="profile-img">
+                                    <img src="./imagens/perfil-base.jpg" alt="imagem usuário">
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Jose Pereira</strong>
+                                    <span>@josepereira</span>
+                                    <div class="box-estrela"></div>
+                                </div>
+                            </div>
+                            <!--reviews------>
+                            <div class="reviews">
+                                <div class="box-estrela">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos earum magnam, at nulla impedit atque quae rem, quo illum ex nemo magni fugit possimus esse iure voluptatem omnis quia.</p>
+                        </div>
+                    </div>
+
+                    <!--BOX-3-------------->
+                    <div class="testimonial-box">
+                        <!--top------------------------->
+                        <div class="box-top">
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <div class="profile-img">
+                                    <img src="./imagens/perfil-base.jpg" alt="imagem usuário">
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Claudio</strong>
+                                    <span>@claudio</span>
+                                    <div class="box-estrela"></div>
+                                </div>
+                            </div>
+                            <!--reviews------>
+                            <div class="reviews">
+                                <div class="box-estrela">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos earum magnam, at nulla impedit atque quae rem, quo illum ex nemo magni fugit possimus esse iure voluptatem omnis quia.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--BOX-4-------------->
+                    <div class="testimonial-box">
+                        <!--top------------------------->
+                        <div class="box-top">
+                            <!--profile----->
+                            <div class="profile">
+                                <!--img---->
+                                <div class="profile-img">
+                                    <img src="./imagens/perfil-base.jpg" alt="imagem usuário">
+                                </div>
+                                <!--name-and-username-->
+                                <div class="name-user">
+                                    <strong>Roberto</strong>
+                                    <span>@roberto</span>
+                                    <div class="box-estrela"></div>
+                                </div>
+                            </div>
+                            <!--reviews------>
+                            <div class="reviews">
+                                <div class="box-estrela">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                        
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quos earum magnam, at nulla impedit atque quae rem, quo illum ex nemo magni fugit possimus esse iure voluptatem omnis quia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Começo sexta página (FAQ) -->
+
+        <section id="faq" class="sixth-section">
+            
+            <h2 class="titulo-faq">
+                Perguntas Frequentes
+            </h2>
+
+
+            <div class="layout">
+
+
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>+ O que é o Centro de Línguas?</p>
+                    </div>
+                    <div class="accordion__answer">
+                        <p>O Centro de Línguas é uma instituição de ensino inserida dentro do Biopark Educação e tem como propósito possibilitar o acesso ao ensino de idiomas aos colaboradores do Biopark, alunos do Biopark Educação e à comunidade em geral.</p>
+                    </div>
+                </div>
+
+
+                <div class="accordion">
+
+                    <div class="accordion__question">
+                        <p>+ Os professores do Centro de Línguas são nativos?</p>
+                    </div>
+
+                    <div class="accordion__answer">
+                        <p>No Centro de Línguas temos um professor nativo, como é o caso do Professor Ilo Ba, que nasceu no senegal.</p>
+                    </div>
+                </div>
+
+
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>+ Como funciona a estrutura curricular?</p>
+                    </div>
+                    <div class="accordion__answer">
+                        <p> Cada curso de idiomas possui a duração de 12 semestres, porém, o aluno poderá concluir em um tempo menor dependendo do resultado de seu nivelamento no início do curso.</p>
+                    </div>
+                </div>
+
+
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>+ Quais os valores e métodos de pagamento?</p>
+                    </div>
+                    <div class="accordion__answer">
+                        <p> O valor da mensalidade para o curso de idiomas é de R$75,00 e pode ser pago via cartão de
+                            crédito e pix.</p>
+                    </div>
+                </div>
+
+
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>+ O que preciso para me matricular no Centro de Línguas?</p>
+                    </div>
+                    <div class="accordion__answer">
+                        <p> Eventualmente ocorrem os processos de nivelamento, onde é necessário realizar a inscrição via Sistema Jacad e se submeter ao nivelamento, que define a proficiência do aluno, após isso o aluno é encaminhado para turma que mais se enquadra no seu nível de idioma. </p>
+                    </div>
+                </div>
+
+
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>+ Como funciona a certificação dos cursos?</p>
+                    </div>
+                    <div class="accordion__answer">
+                        <p> Ao final de cada um dos níveis, o aluno receberá o certificado de conclusão.
+                            Para concluir cada um dos níveis do curso, o aluno deve observar o seguinte:<br>
+                            a) ter cumprido o cronograma do curso;
+                            <br>
+                            b) possuir documentação completa na Secretaria;
+                            <br>
+                            c) obter presença de, no mínimo, 75% (setenta e cinco por cento);
+                            <br>
+                            f) obter, no mínimo, 70% (setenta por cento) de aproveitamento dos conteúdos
+                            ministrados.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="accordion">
+                    <div class="accordion__question">
+                        <p>+ Quais materiais são utilizados?</p>
+                    </div>
+                    <div class="accordion__answer">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, perspiciatis nemo. Vel voluptate quidem dolore magnam explicabo.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- Inicio footer -->
+
+
+        <footer>
+        <div class="footer-content" id="footer-content">
+            <div class="container-footer">
+                <div class="linha-footer">
+
+                    <!-- Primeira coluna -->
+
+                    <div class="footer-col">
+                        <h4>Sobre</h4>
+                        <ul>
+                            <li><a href="#metodologia">Quem somos?</a></li>
+                            <li><a href="#">Localização</a></li>
+                            <li><a href="#FAQ">FAQ</a></li>
+                            <li><a href="#">Contatos</a></li>
+                            <li><a href="#">Termos de privacidade</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Segunda coluna -->
+
+                    <div class="footer-col">
+                        <h4>Educação</h4>
+                        <ul>
+                            <li><a href="#professores">Professores</a></li>
+                            <li><a href="#metodologia">Metodologia</a></li>
+                            <li><a href="#">Horários</a></li>
+                            <li><a href="#redes">Eventos</a></li>
+                            <li><a href="#">Calendários</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Terceira coluna -->
+
+                    <div class="footer-col">
+                        <h4>Cursos</h4>
+                        <ul>
+                            <li><a href="#">Espanhol</a></li>
+                            <li><a href="#">Inglês</a></li>
+                            <li><a href="#">Francês</a></li>
+                            <li><a href="#">Português</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Quarta coluna -->
+
+                    <div class="footer-col">
+                        <h4>Administração</h4>
+                        <ul>
+                            <li><a href="#">Rodovia estadual, PR-182</a></li>
+                            <li><a href="#">TOLEDO | PARANÁ | BRASIL</a></li>
+                            <li><a href="#">+55 (45)2036-3601</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contato -->
+
+                    <div class="footer-col">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><a href="https://www.instagram.com/centrodelinguasbpk/">Instagram</a></li>
+                            <li><a href="https://biopark.com.br">Biopark</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>   
+        </div>        
+    </footer>
+
+
+    <script>
+
+        // Script acordeão FAQ
+
+        let answers = document.querySelectorAll(".accordion");
+        answers.forEach((event) => {
+            event.addEventListener('click', () => {
+                if (event.classList.contains("active")) {
+                    event.classList.remove("active");
+                }
+                else {
+                    event.classList.add("active");
+                }
+            })
+        })
+
+
+        // Script botão back-to-top
+        
+        // Get button:
+        let mybutton = document.getElementById("myBtn");
+
+        // Quando o usuário scrollar 20px do topo o botão sera mostrado
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // Quando o botão for clicado, scrollar para o topo
+
+        function topFunction() {
+        document.body.scrollTop = 0; // Safari
+        document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+        }
+        </script>
+
+    </body>
+
+               
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
