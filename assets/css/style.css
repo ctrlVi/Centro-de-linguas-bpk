@@ -2,9 +2,10 @@
     padding: 0;
     margin: 0;
     border: 0;
+
+    text-decoration: none;
     font-family: Nunito, sans-serif;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 :root{
@@ -43,12 +44,10 @@
     --fs-48: 3rem; 
 }
 
-
-
 /* DEFINIÇÃO DO PLANO DE FUNDO */
 
 body{
-    background-image: url('./fundos/papel\ de\ parede\ azul.svg');
+    background-image: url('../img/backgrounds/papel_de_parede_azul.svg');
     font-family: var(--fonte);
     color: var(--white);
     font-size: var(--fs-18);
@@ -57,8 +56,8 @@ body{
     min-height: 100vh;
 }
 
-ul{
-    list-style: none;
+ul {
+    /* list-style: none; */
 }
 
 /* HEADER */
@@ -86,6 +85,10 @@ nav{
     flex-wrap: wrap;
 }
 
+header nav a {
+    user-select: none;
+}
+
 .nav-links{
     text-decoration: none;
     color: var(--white);
@@ -101,7 +104,7 @@ nav{
 
 /* BOTÃO BACK TO TOP */
 
-#myBtn {
+#btnToTop {
     display: none; 
     position: fixed; 
     bottom: 20px; 
@@ -117,7 +120,7 @@ nav{
     font-size: 18px; 
   }
   
-  #myBtn:hover {
+  #btnToTop:hover {
     background-color: #4e5540; 
   }
 
@@ -330,7 +333,7 @@ span{
 .redes{
     margin-top: 10%;
     /* DETERMINA UM FUNDO DIFERENTE (BRANCO) */
-    background-image: url(./imagens/papel\ de\ parede\ branco.png);
+    background-image: url("../img/backgrounds/papel_de_parede_branco.png");
     width: 100%;
     height: 100%;
     display: flex;
@@ -354,7 +357,7 @@ span{
 .redes-img img{
     width: 25%;
 }
- 
+
 /* TERCEIRA PAGINA (METODOLOGIA) */
 
 .metodologia{
@@ -410,12 +413,41 @@ span{
 
 .main__img{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 500px;
     margin-top: 130px;
     background-color: var(--white);
     border-radius: 30px;
+    gap: 20px;
+}
+
+.main__img .title,
+.main__img .subtitle,
+.main__img .name {
+    color: var(--blue);
+    font-weight: var(--fw-800);
+}
+
+.main__img .title {
+    background-color: var(--yellow);
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+    font-size: var(--fs-28);
+}
+
+.main__img .subtitle {
+    font-size: var(--fs-38);
+}
+
+.main__img .name {
+    font-size: var(--fs-20);
+}
+
+.main__img .biopark-logo {
+    width: 130px;
+    margin-bottom: 15px;
 }
 
 
