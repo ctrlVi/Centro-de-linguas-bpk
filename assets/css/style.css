@@ -551,6 +551,7 @@ span{
 
 .testimonial-box{
     width:500px;
+    min-height: 180px;
     box-shadow: 1px 1px 3px var(--white);
     background-color: var(--white);
     border-radius: 0px 30px 30px 30px;
