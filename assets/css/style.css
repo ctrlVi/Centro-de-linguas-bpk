@@ -356,6 +356,7 @@ span{
 }
 .redes-img img{
     width: 25%;
+    aspect-ratio: 1;
 }
 
 /* TERCEIRA PAGINA (METODOLOGIA) */
