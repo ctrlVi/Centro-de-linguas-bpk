@@ -304,6 +304,26 @@ span{
     color: var(--blue);
 }
 
+.name-coordenador{
+    font-size: var(--fs-28);
+    font-weight: var(--fw-800);
+    color: var(--blue);
+}
+
+.img-coordenador{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.genero-coordenador{
+    color: var(--blue);
+    font-weight: var(--fw-800);
+    background-color: var(--yellow);
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+    font-size: var(--fs-28);
+}
+
 .description{
     font-size: var(--fs-14);
     color: var(--blue);
