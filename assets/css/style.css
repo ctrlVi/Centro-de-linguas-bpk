@@ -304,6 +304,26 @@ span{
     color: var(--blue);
 }
 
+.name-coordenador{
+    font-size: var(--fs-28);
+    font-weight: var(--fw-800);
+    color: var(--blue);
+}
+
+.img-coordenador{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.genero-coordenador{
+    color: var(--blue);
+    font-weight: var(--fw-800);
+    background-color: var(--yellow);
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+    font-size: var(--fs-28);
+}
+
 .description{
     font-size: var(--fs-14);
     color: var(--blue);
@@ -356,6 +376,7 @@ span{
 }
 .redes-img img{
     width: 25%;
+    aspect-ratio: 1;
 }
 
 /* TERCEIRA PAGINA (METODOLOGIA) */
@@ -476,26 +497,17 @@ span{
     flex-wrap: wrap;
     align-items: center;
     min-height: 400px;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .img-profile{
-    width: 40%;
+    /* width: 40%; */
     border-radius: 50px;
     margin-bottom: 20px;
 }
 
-.box1{
-    width: 250px;
-    height: 250px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.box2{
+.box{
     width: 235px;
     height: 250px;
     background-color: var(--white);
@@ -505,29 +517,6 @@ span{
     align-items: center;
     flex-direction: column;
 }
-
-.box3{
-    width: 235px;
-    height: 250px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.box4{
-    width: 235px;
-    height: 250px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 /* QUINTA PAGINA (AVALIAÇÕES) */
 
 #testimonials{
