@@ -476,26 +476,17 @@ span{
     flex-wrap: wrap;
     align-items: center;
     min-height: 400px;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .img-profile{
-    width: 40%;
+    /* width: 40%; */
     border-radius: 50px;
     margin-bottom: 20px;
 }
 
-.box1{
-    width: 250px;
-    height: 250px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.box2{
+.box{
     width: 235px;
     height: 250px;
     background-color: var(--white);
@@ -505,29 +496,6 @@ span{
     align-items: center;
     flex-direction: column;
 }
-
-.box3{
-    width: 235px;
-    height: 250px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.box4{
-    width: 235px;
-    height: 250px;
-    background-color: var(--white);
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 /* QUINTA PAGINA (AVALIAÇÕES) */
 
 #testimonials{
