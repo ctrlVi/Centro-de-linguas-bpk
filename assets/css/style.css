@@ -669,21 +669,15 @@ span{
     }
 
     .accordion__answer {
-        transition: all 250ms ease-in-out;
-        height: 0;
-        transform: scaleY(0);
-        transform-origin: top;
+        display: none;
     }
 
     .accordion.active {
-        transition: all 250ms ease-in-out;
-        height: 100px;
+        height: 100%;
     }
 
     .accordion.active .accordion__answer {
-        transition: all 250ms ease-in-out;
-        transform: scaleY(1);
-        height: 100%;
+        display: block;
     }
 
 
