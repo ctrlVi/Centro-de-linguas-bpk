@@ -118,7 +118,7 @@ header nav a {
     cursor: pointer;
     padding: 15px; 
     border-radius: 50%; 
-    font-size: 18px; 
+    font-size: 18px;
   }
   
   #btnToTop:hover {
