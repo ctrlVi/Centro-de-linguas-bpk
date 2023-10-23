@@ -118,7 +118,6 @@ header nav a {
     padding: 15px; 
     border-radius: 50%; 
     font-size: 18px;
-    scroll-behavior: smooth;
   }
   
   #btnToTop:hover {
