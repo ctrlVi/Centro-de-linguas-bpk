@@ -48,6 +48,7 @@
 
 body{
     background-image: url('../img/backgrounds/papel_de_parede_azul.svg');
+    scroll-behavior: smooth;
     font-family: var(--fonte);
     color: var(--white);
     font-size: var(--fs-18);
@@ -634,13 +635,18 @@ span{
     width: 80%;
     margin: auto;
   }
+
   .accordion {
       padding: 10px;
       margin-top: 10px;
       margin-bottom: 10px;
       background: var(--white);
       border-radius: 10px;
+      transform: scaleY(1);
+      height: 50px;
+      transition: all 250ms ease-in-out;
     }
+
     .accordion__question > p {
         margin: 5px;
         padding: 0;
@@ -648,6 +654,7 @@ span{
         font-weight: var(--fw-500);
         color: var(--blue);
     }
+
     .accordion__answer > p {
         margin: 5px;
         padding: 10px;
@@ -655,21 +662,29 @@ span{
         color: var(--blue);
         background-color: var(--cyan);
         border-radius: 0px 10px 10px 10px;
-        transform: scaleX(0);
-        transition: all 3000ms ease-in-out;
     }
+    
     .accordion:hover {
         cursor: pointer;
     }
+
     .accordion__answer {
-        display: none;
+        transition: all 250ms ease-in-out;
+        height: 0;
+        transform: scaleY(0);
+        transform-origin: top;
     }
+
     .accordion.active {
+        transition: all 250ms ease-in-out;
+        height: 100px;
     }
+
     .accordion.active .accordion__answer {
-    display: block;
-    transform: scaleX(1);
-  }
+        transition: all 250ms ease-in-out;
+        transform: scaleY(1);
+        height: 100%;
+    }
 
 
 
