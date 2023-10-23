@@ -1,8 +1,7 @@
 window.addEventListener("load", () => {
     const btnToTop = document.getElementById("btnToTop");
     btnToTop.addEventListener("click", () => {
-        document.body.scrollTop = 0; // Safari
-        document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+        window.scrollTo({top: 0, behavior: 'smooth'});
     });
 
     window.addEventListener("scroll", () => {
